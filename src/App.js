@@ -11,8 +11,8 @@ const App = () => {
   };
 
   return (
-    <div className="app-container">
-      <h1 className="page-heading">My React App</h1>
+    <div>
+      
       {currentPage === "login" ? (
         <Login handlePageChange={handlePageChange} />
       ) : (

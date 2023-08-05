@@ -13,48 +13,48 @@ const Register = ({ handlePageChange }) => {
   };
 
   return (
-    <div className="form-container">
-      <h2 className="page-heading">Register</h2>
+    <div className="body">
+      <h2 className="login">Register</h2>
       <div>
-        <label className="form-label">Name:</label>
+        <label className="mail">Name:</label>
         <input
           type="text"
-          className="form-input"
+          className="move"
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
       </div>
       <div>
-        <label className="form-label">Email:</label>
+        <label className="pa">Email:</label>
         <input
           type="text"
-          className="form-input"
+          className="movee"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
       </div>
       <div>
-        <label className="form-label">Password:</label>
+        <label className="pas">Password:</label>
         <input
           type="password"
-          className="form-input"
+          className="moves"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
       </div>
       <div>
-        <label className="form-label">Confirm Password:</label>
+        <label className="pass">Confirm Password:</label>
         <input
           type="password"
-          className="form-input"
+          className="mov"
           value={confirmPassword}
           onChange={(e) => setConfirmPassword(e.target.value)}
         />
       </div>
-      <button className="form-button" onClick={handleRegister}>
+      <button className="logg" onClick={handleRegister}>
         Register
       </button>
-      <button href="/" className="form-button" onClick={() => handlePageChange("login")}>
+      <button className="reg" onClick={() => handlePageChange("login")}>
         Login
       </button>
     </div>

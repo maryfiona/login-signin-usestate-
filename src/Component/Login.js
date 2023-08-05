@@ -34,7 +34,7 @@ const Login = ({ handlePageChange }) => {
       <button className="logg" onClick={handleLogin}>
         Login
       </button>
-      <button className="form-button" onClick={() => handlePageChange("register")}>
+      <button className="reg" onClick={() => handlePageChange("register")}>
         Register
       </button>
     </div>

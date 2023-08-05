@@ -1,0 +1,95 @@
+.logg{
+    text-align: center;
+    position: relative;
+    top: 6em;
+    width: 6em;
+    height:30px;
+     background-color: black;
+     color: white;
+    border: none;
+    outline: none;
+    right: 4em;
+}
+.reg{
+    text-align: center;
+    position: relative;
+    top: 6em;
+    width: 6em;
+    height:30px;
+     background-color:green;
+     color:white;
+    border: none;
+    outline: none;
+    left: 6em;
+}
+.login{
+    text-align: center;
+    color: green;
+
+
+}
+.login:hover{
+    color: black;
+}
+
+.mail:hover{
+    color: green;
+}
+
+.move{
+    width: 19em;
+    height:20px;
+    position: relative;
+    background-color: rgb(243, 234, 234);
+    border: none;
+    outline: none;
+    left: 1em;
+
+}
+.movee{
+    width: 19em;
+    height:20px;
+    position: relative;
+    background-color: rgb(243, 234, 234);
+    border: none;
+    outline: none;
+    top: 1.5em;
+    left: 1em;
+}
+.pa{
+    position: relative;
+    top: 1.5em;
+}
+.moves{
+    width: 19em;
+    height:20px;
+    position: relative;
+    background-color: rgb(243, 234, 234);
+    border: none;
+    outline: none;
+    top: 3em;
+}
+.mov{
+    width: 19em;
+    height:20px;
+    position: relative;
+    background-color: rgb(243, 234, 234);
+    border: none;
+    outline: none;
+    top: 4em;
+    right: 2em;
+}
+
+.body{
+    text-align: center;
+}
+.pass{
+    position: relative;
+    top: 3.5em;
+    right: 2em;
+}
+.pas{
+    position: relative;
+    top: 2.5em;
+    
+}
