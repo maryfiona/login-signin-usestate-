@@ -1,0 +1,62 @@
+.login{
+    text-align: center;
+    color: green;
+
+
+}
+.login:hover{
+    color: black;
+}
+
+.mail:hover{
+    color: green;
+}
+
+.move{
+    width: 19em;
+    height:20px;
+    position: relative;
+    background-color: rgb(243, 234, 234);
+    border: none;
+    outline: none;
+
+}
+.maill:hover{
+    color: green;
+    
+}
+.body{
+    text-align: center;
+}
+.maill{
+    position: relative;
+    top: 3em;
+    right: 1em;
+
+}
+.mailll{
+    position: relative;
+    top: 3em;
+    width: 19em;
+    height:20px;
+     background-color: rgb(243, 234, 234);
+    border: none;
+    outline: none;
+    right: 1em;
+
+
+}
+.logg{
+    text-align: center;
+    position: relative;
+    top: 6em;
+    width: 6em;
+    height:30px;
+     background-color: black;
+     color: white;
+    border: none;
+    outline: none;
+
+
+
+}
