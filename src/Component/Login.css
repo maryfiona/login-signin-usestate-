@@ -46,7 +46,15 @@
 
 
 }
-border: none;
+.logg{
+    text-align: center;
+    position: relative;
+    top: 6em;
+    width: 6em;
+    height:30px;
+     background-color: black;
+     color: white;
+    border: none;
     outline: none;
     right: 4em;
 }
